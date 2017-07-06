@@ -1,4 +1,3 @@
-from utils import webutils
 import sys
 
 
@@ -19,7 +18,7 @@ def stringi2():
     print(vers)
 
 
-def stringi3(): #tylko python 3.6
+def stringi3(): #tylko python 3.6!!!
     name = "Bob"
     age = 23
     hobbies = ['Python', 'Programming', 'Tomb Rider']
