@@ -11,7 +11,9 @@ r = requests.get(URL, verify = False)
 json_dict = r.json() # a standard python dictionary
 print(json.dumps(json_dict, indent=3)) # to pretty-print with 3 spaces of indentation
 
-
+counter = 0
+if "ZOOKEEPER" in URL:
+    counter+=1
 
 #
 # A web API is a set of programming instructions and standards for accessing web based software applications.
