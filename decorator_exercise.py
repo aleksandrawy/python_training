@@ -1,7 +1,7 @@
 from functools import wraps #importujemy dekorator
 
 
-def tags(tag):
+def tags(tag):   #zjawisko clousure (?)
     def inner_decorator(func):  #tu trafia core_string
 
         @wraps(func)
